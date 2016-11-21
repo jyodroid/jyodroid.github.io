@@ -7,6 +7,7 @@ import { HeroService } from '../../services/hero.service';
   moduleId: module.id,
   selector: 'my-dashboard',
   templateUrl: 'dashboard.component.html',
+  styleUrls:['dashboard.component.css']
 })
 
 export class DashboardComponent implements OnInit{
@@ -18,5 +19,4 @@ export class DashboardComponent implements OnInit{
     this.heroService.getHeroes()
       .then(heroes => this.heroes = heroes.slice(1, 5));
   }
-
 }

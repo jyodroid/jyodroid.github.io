@@ -1,19 +1,14 @@
 import { Component } from '@angular/core';
 
-import { HeroesComponent } from './modules/heroes.component';
+import { HeroesComponent } from './modules/heroes/heroes.component';
 
 import { Hero } from './models/hero';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-app',
-  template:`
-          <h1>{{title}}</h1>
-             <nav>
-               <a routerLink="/dashboard">Dashboard</a>
-               <a routerLink="/heroes">Heroes</a>
-             </nav>
-             <router-outlet></router-outlet>
-          `
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.css']
 })
 
 export class AppComponent{
