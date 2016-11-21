@@ -1,4 +1,10 @@
 node_modules/*
-*.js
-*.js.map
+*.component.js
+*.component.js.map
+*.service.js
+*.service.js.map
+*.module.js
+*.module.js.map
+app/**/*.js
+app/**/*.js.map
 npm-debug.log
