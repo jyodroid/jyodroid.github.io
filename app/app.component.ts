@@ -1,9 +1,5 @@
 import { Component } from '@angular/core';
 
-import { HeroesComponent } from './modules/heroes/heroes.component';
-
-import { Hero } from './models/hero';
-
 @Component({
   moduleId: module.id,
   selector: 'my-app',
