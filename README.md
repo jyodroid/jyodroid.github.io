@@ -43,9 +43,7 @@ coming soon
 
 License
 ----
-
-MIT
-**Free Software, Hell Yeah!**
+[Apache License 2.0]
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
@@ -59,3 +57,4 @@ MIT
    [linter]: <https://github.com/steelbrain/linter>
    [Atom EditConfig]: <https://github.com/sindresorhus/atom-editorconfig>
    [File Icons]: <https://github.com/DanBrooker/file-icons>
+   [Apache License 2.0]: <http://www.apache.org/licenses/LICENSE-2.0.html>
